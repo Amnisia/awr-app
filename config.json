@@ -1,0 +1,12 @@
+{
+  "ClientId" : "133f46f76b83417cbb6fe494085175ca",
+  "ClientSecret" : "6eb0008b-f6f0-4b20-87d1-7b61396a12bb",
+  "BaseUrl" : "https://idcs-e291d524a1e8439d999d85f5c7b520f1.identity.oraclecloud.com/",
+  "AudienceServiceUrl" : "https://idcs-e291d524a1e8439d999d85f5c7b520f1.identity.oraclecloud.com/",
+  "scope" : "urn:opc:idm:t.user.me openid",
+  "TokenIssuer" : "https://identity.oraclecloud.com/",
+  "redirectURL": "https://awrtool.austincloudengineering.com/home",
+  "logoutSufix":"oauth2/v1/userlogout",
+  "LogLevel":"INFO",
+  "ConsoleLog":"True"
+}

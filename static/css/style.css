@@ -1,0 +1,43 @@
+div.container1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.description {
+    color: white;
+    font-size: 10px;
+    padding-top: 20px;
+
+}
+
+h1.head1 {
+     background-color: #000000;
+     color: white;
+     font-size: 30px;
+     box-shadow: none;
+     margin: 0;
+     /* border: 50px;
+     padding: 20px;
+     border-radius: 10px;} */
+     font-size: calc(10px + 2vmin);
+     padding-bottom: 10px;
+}
+
+.form-control {
+    background-color:black;
+}
+
+.input-group .form-control {
+    float: none;
+    width: 110%;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+.input-group-btn {
+    padding-top: 15px;
+}

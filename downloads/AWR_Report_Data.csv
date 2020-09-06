@@ -1,0 +1,2 @@
+DBName,Version,RAC,#RAC Nodes,Servers,Sockets,Cores,SGA,PGA,DBSize(GB),Reads/Writes,Total Reads,Total Writes,PHYSICAL_MEMORY_GB,average_os_cpu,average_os_cpu_max,max_os_cpu_max
+F15A,12.1.0.2.0,NO,1,lnbrorad24,2,16,10.7,10.7,4262.51,OLAP,50258710,3035106,504.65,1.0,30.23,79.4

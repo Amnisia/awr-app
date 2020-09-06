@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AWR Automation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+    <!--  <img src="/static/Redwoodwebtemplate.jpg"> -->
+</head>
+
+<header style="background-color:Black">
+	
+	<div class="topnav" style="overflow:hidden"
+	  <div class="topnav-left" style="float: left" >  
+		 <img src="static/OracleLogo.png" width="12%" height="60%">
+	  </div>
+      	  <div id="topnav-right-id" class="topnav-right" style="float:right; display:inline; white-space:nowrap;" >
+        	  <a href="/logout">logout</a>
+      	  </div> 
+	</div>
+</header>
+<body style="background-image: url('static/Background.png'); background-size: cover; height: 100vh; width: 100wh;">
+    {% block content %}
+    {% endblock %}
+
+    <script type="text/javascript" src={{url_for('static', filename='jquery.min.js')}}></script>
+    <script type="text/javascript" src="{{url_for('static', filename='bootstrap.min.js')}}"></script>
+    <script type="text/javascript" src="/static/js/upload.js"></script>
+    <script type="text/javascript"> 
+
+	document.addEventListener("DOMContentLoaded", logoutOff ); 
+        console.log('html done');
+        
+	function logoutOff() {
+	var bar = document.getElementById("topnav-right-id").style.visibility = 'hidden'; 
+	console.log(bar) 
+        };	
+    </script>
+</body>
+
+</html>

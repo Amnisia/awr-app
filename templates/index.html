@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+ 
+{% block content %}
+
+	<!-- <div style="background-color:Black"> &nbsp; </div> -->
+	<div className="ui placeholder segment" align="center">
+    	<h1 class="head1">Automatic Workload Repository (AWR) File Reader</h1>
+
+		<div class="description">
+		Description: This site is intended for INTERNAL Oracle users to import their AWR .out files and receive a csv with detailed information <br>
+		Step 1: Import a .zip file containing only awr.out files <br>
+		Step 2: Submit the button and download the csv of the results
+		</div>
+	<div class="container1">
+	<h2 style="color:white; background-color:black; ">Upload .zip file of AWR.out files here</h2>
+	<form method="POST" action="#" enctype="multipart/form-data">
+	<!-- COMPONENT START -->
+	<div class="form-group">
+		<div class="input-group input-file" name="file">
+    		<input type="text" class="form-control" placeholder='Choose a file...' width="50%"/>
+		</div>
+	</div>
+	<!-- COMPONENT END -->
+	<div class="form-group">
+		<button type="submit" class="btn btn-primary" >Submit</button>
+		<button type="reset" class="btn btn-danger">Reset</button>
+            </td>
+	</div>
+	</form>
+
+	</div>
+	<script type="text/javascript">
+		window.onload = function logoutOn() {
+  		var logout = document.getElementById("topnav-right-id").style.visibility = 'visible'; 
+ 		console.log('Logout is visible');
+	};
+	</script>
+
+{% endblock %}
+
+
